@@ -11,7 +11,8 @@
     "web": "node bin/encryptor.js web",
     "encrypt": "node bin/encryptor.js encrypt",
     "decrypt": "node bin/encryptor.js decrypt",
-    "serve": "node bin/encryptor.js serve"
+    "serve": "node bin/encryptor.js serve",
+    "test": "node --test test/smoke.test.js"
   },
   "dependencies": {
     "argon2": "^0.41.1",
