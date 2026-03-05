@@ -1,0 +1,21 @@
+{
+  "name": "encryptor",
+  "version": "2.0.0",
+  "description": "File encryption with tracking beacons, decryption notifications, and DNS canary tracking",
+  "type": "module",
+  "bin": {
+    "encryptor": "./bin/encryptor.js"
+  },
+  "scripts": {
+    "start": "node bin/encryptor.js web",
+    "web": "node bin/encryptor.js web",
+    "encrypt": "node bin/encryptor.js encrypt",
+    "decrypt": "node bin/encryptor.js decrypt",
+    "serve": "node bin/encryptor.js serve"
+  },
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
